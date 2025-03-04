@@ -38,8 +38,8 @@
 #'\dontrun{
 #' cnv_calls <- get_CNV(path2bam = 'C:/bamfiles')
 #'}
-# @import QDNAseq
-# @export
+#' @import QDNAseq
+#' @export
 
 get_CNV <- function(path2bam, out.file = 'CNV_calls', bin.size = 1000, genome = 'hg19',
                     CNV.level = 2) {
